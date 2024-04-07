@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/x-icon" href="/images/yellowstone_sunset.jpg">
+    <title>Travel</title>
+</head>
+<body>
+    <a href="#main" class="skip">Skip to Main Content</a>
+    <script type="text/javascript">
+        function displayInformation () {
+            document.querySelector("#time").innerHTML= new Date();
+        }
+    </script>
+    <header>
+        <nav>
+            <ul class="header">
+                <li class="button"><a href = "index.html">Home</a></li>
+                <li class="button"><a href = "pets.html">Pets</a></li>
+                <li class="button"><a href = "recipes.html">Recipes</a></li>
+                <li class="active"><a href = "travel.html">Travel</a></li>
+            </ul>
+        </nav>
+        <p>It is: <span id = "time"></span><br/>
+            <button type="button" onClick="displayInformation()">Tell me the DATE!</button>
+            </p>
+        <h1>Travel</h1>
+    </header>
+    <main id="main">
+        <div class="one">
+            <h2>Yellowstone National Park</h2>
+            <p>Mammoth Hot Springs has a number of actively forming Travertine terraces.</p>
+            <h3>Photo Gallery</h3>
+            <img src="images/yellowstone_travertine.JPG" width="1000" alt = "A large mound of multi-colored travertine">
+        </div>
+        <div class="two">
+            <h2>Boulder Colorado</h2>
+            <p>Boulder, Colorado is where the Buffalo Roam. It is home to my Alma Mater, the University of Colorado! There are many hiking locations near the city center, most notably Chautauqua Park.</p>
+            <p>Boulder, Colorado is a small city of about 104,000 people, about a quarter of which are students that attend the University of Colorado. They city is a vibrant start-up hub that is a center for technology and innovation much like Ann Arbor is.</p>
+            <h3>Photo Gallery</h3>
+            <div class="gallery">
+                <img src="images/Boulder_Colorado_Flatirons.jpg" width="400" alt = "mountains with blue sky and green fields">
+                <img src="images/Boulder_Colorado_Pearl_Street.jpg" width="400" alt="town with mountains in the background">
+                <img src="images/Boulder_Colorado_Varsity_Pond.jpg" width="400" alt="snowy river with brick bridge and building behind">
+            </div>
+
+        </div>
+        <div class="three">
+            <h2>Niagara Falls</h2>
+            <p>Niagara Falls is located on the border between Canada and the United States. Connecting Lake Erie and Lake Ontario, Niagara Falls has the highest flow rate of any waterfall in North America.</p>
+            <p>Niagara Falls draws in thousands of visitors every year, and for good reason. As such, there are numerous things that you can see while you visit the falls, and it is very easy to make a full trip out of seeing this wonderful sight.</p>
+            <h3>Photo Gallery</h3>
+            <div class="gallery">
+                <img src="images/Niagara_Falls_Sunset.jpg" width="400" alt="niagara waterfall with sunset">
+                <img src="images/Niagara_Falls_Rainbow.jpg" width="400" alt="niagara waterfall with rainbow">
+                <img src="images/Niagara_Falls_Colorful.jpg" width="400" alt="niagara waterfall with colorful lights at night">
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>Wandering at Large &copy; 2024</p>
+    </footer>
+</body>
+</html>

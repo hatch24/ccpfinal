@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/x-icon" href="/images/yellowstone_sunset.jpg">
+    <title>Pets</title>
+</head>
+<body>
+    <a href="#main" class="skip">Skip to Main Content</a>
+    <script type="text/javascript">
+        function displayInformation () {
+            document.querySelector("#time").innerHTML= new Date();
+        }
+    </script>
+    <header>
+        <nav>
+            <ul class="header">
+                <li class="button"><a href = "index.html">Home</a></li>
+                <li class="active"><a href = "pets.html">Pets</a></li>
+                <li class="button"><a href = "recipes.html">Recipes</a></li>
+                <li class="button"><a href = "travel.html">Travel</a></li>
+            </ul>
+        </nav>
+        <p>It is: <span id = "time"></span><br/>
+        <button type="button" onClick="displayInformation()">Tell me the DATE!</button>
+        </p>
+        <h1>Pets</h1>
+    </header>
+
+    <main id="main">
+        <div class="pettv">
+            <h2>Cat TV</h2>
+            <p>Ever wonder how to keep your cats entertained, well look no further than cat tv! View Some right from youtube below.</p>
+            <iframe width="80%" height="600" src="https://www.youtube.com/embed/WuS9kPNAXHw?si=JdfoEZAwhc4msqkI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+            <div class="white">
+                <div class="petprofile">
+                    <div>
+                    <h2>Mini</h2>
+                    <h3>Likes</h3>
+                    <ul>
+                        <li>Booty scratches</li>
+                        <li>Sunbathing</li>
+                        <li>Treats</li>
+                    </ul>
+                    </div>
+                    <img src="images/mini_yard.jpeg" width = "400" alt="White and black Toy Fox Terrier sitting in yard">
+                    <p class="span">Mini is a 13 year old toy fox terrier. She loves lounging in the sun and people watching. Shes always ready for a walk but make sure it is not too long and that there is a tasty treat waiting for her!</p>
+
+                </div>
+            </div>
+            <div class="petprofile">
+                <div>
+                    <h2>Edgar</h2>
+                    <h3>Likes</h3>
+                    <ul>
+                        <li>Chin Scrachtes</li>
+                        <li>Naps</li>
+                        <li>Watching birds with Archie</li>
+                    </ul>
+                </div>
+                <img src="images/edgar_couch.jpeg" width = "400" alt="Black manx cat sitting on blue couch">
+                <p class="span"> Edgar is a four year old Manx cat. He is lovingly referred to as Gurt by his family and loves to cuddle and nap to pass the time. His best friend Archie keeps him on his toes and might wake Gurt up from more naps than he wants.</p>
+            </div>
+            <div class="white">
+                <div class="petprofile">
+                    <div>
+                        <h2>Archie</h2>
+                        <h3>Likes</h3>
+                        <ul>
+                            <li>Waking Edgar up</li>
+                            <li>Causing Chaos</li>
+                            <li>Watching birds with Edgar</li>
+                        </ul>
+                    </div>
+                    <img src="images/archie.jpeg" alt="Orange cat sitting on a pillow">
+                    <p class="span"> Archie is a 2 year old orange cat. He lives up to the sterotypes about orange cats and causes his fair chare of chaos. He often is waking Edgar up or trying to get Mini to play.</p>
+                </div>
+            </div>
+            <div class="petprofile">
+                <div>
+                    <h2>Homer</h2>
+                    <h3>Likes</h3>
+                <ul>
+                    <li>Watching birds and bird videos</li>
+                    <li>Food</li>
+                    <li>Cuddling</li>
+                </ul>
+                </div>
+                <img src="images/Homer_shelf.jpeg" width = "400" alt="longhair grey cat on shelf">
+
+                <p class="span">Homer is a five year old Nebelung cat. He loves to strach out and for for walks in the yard with his humans. he is good friends with Edgar and Archie and of course loves his little friend Percy.</p>
+
+            </div>
+            <div class="white">
+                <div class="petprofile">
+                    <div>
+                        <h2>Percy</h2>
+                        <h3>Likes</h3>
+                    <ul>
+                        <li>Playing</li>
+                        <li>Napping</li>
+                        <li>Being naughty</li>
+                    </ul>
+                    </div>
+                    <img src="images/Percy_rafters.jpeg" width = "400" alt="white and grey cat standing in the rafters">
+                    <p class="span">Percy is a rambunctious kitten who is amost a year old. She loves to go on playdates to see her sibilings and climbing around is her passion.</p>
+
+                </div>
+            </div>
+    </main>
+    <footer>
+        <p>Wandering at Large &copy; 2024</p>
+    </footer>
+</body>
+</html>
